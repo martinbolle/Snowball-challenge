@@ -80,7 +80,7 @@ body{
   position: static;
   width: 100%;
   padding-top: 2px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: #F49F0A;
   color: black;
   text-align: center;
@@ -88,4 +88,58 @@ body{
   font-size: 15px;
   justify-content: space-between;
   border: 2px solid black;
+}
+@media only screen and (max-width: 1060px){
+  nav a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+  }
+  .challengebox{
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+  img{
+    height: 300px;
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 1090px){
+  .challengebox{
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    margin-top: 300px;
+    margin-bottom: 150px;
+
+
+  }
+}
+@media only screen and (max-width: 524px){
+  h1{
+    margin-top: 260px;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .bildeavutslipp{
+    height: 200px;
+    width: 400px;
+  }
 }
