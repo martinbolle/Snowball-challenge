@@ -91,7 +91,7 @@ body{
   border: 2px solid black;
 }
 @media only screen and (max-width: 1060px){
-  nav a{
+  .topnav a {
     font-size: 18px;
     font-weight: bold;
     color: black;
@@ -145,9 +145,9 @@ body{
   h1{
     margin-top: 100px;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
   }
-  p{
+  p {
     font-size: 20px;
   }
   .bildeavutslipp{
@@ -155,7 +155,7 @@ body{
     height: auto;
   }
   h4{
-    font-size:17px;
+    font-size:15px;
   }
   .soulution{
     display: flex;
@@ -163,6 +163,12 @@ body{
   }
   .source{
     font-size: 20px;
+  }
+  .topnav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 280){
@@ -175,5 +181,14 @@ body{
   .bildeavutslipp{
     width: 100%;
     height: auto;
+  }
+  .topnav{
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    height: auto;
+  }
+  .text{
+    font-size: 30px;
   }
 }
